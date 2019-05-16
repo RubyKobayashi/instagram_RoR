@@ -4,37 +4,22 @@ Instagram challenge using Ruby on Rails
 
 **User Stories:**
 
-* Any signed-up user can log in
 
-```
-As a user,
-So I can use my account
-I want to be able to log in
-```
-
-* Any signed-up user can log out
-
-```
-As a user,
-So I can protect my account,
-I want to be able to log out
-```
-
-* Any signed-up user can post photos
+* Any user can post photos
 
 ```
 As a user,
 So I can keep a collection of photos online,
-I want to be able to upload photos
+I want to be able to upload photos with captions
 ```
-* Any signed-up user can connect with friends and family
+* Any user can connect with friends and family
 
 ```
 As a user,
 So I can be connected to my friends and family,
 I want to be able to see their photos
 ```
-* Any signed-up user can comment on a photo
+* Any user can comment on a photo
 
 ```
 As a user,
@@ -42,7 +27,7 @@ So I can make my presence known online
 I would like to be able to comment on photos
 ```
 
-* Any signed-up user can like a photo
+* Any user can like a photo
 
 ```
 As a user,
@@ -106,9 +91,14 @@ Things you may want to cover:
   By default the postgresql user is your current OS X username with no password. For example, my OS X user is named chris so I can login to postgresql with that username.
 
 * How to run the test suite
+  To install rspec:
   In teminal run command:
   rails generate rspec:install
-  
+
+  To run tests:
+  In terminal run command:
+  rspec
+
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
